@@ -12,7 +12,7 @@ describe('Validator', () => {
     });
 
     test('должен валидировать имя без подряд идущих четырех цифр', () => {
-        expect(validator.validateUsername('Ludok355')).toBe(true);
+        expect(validator.validateUsername('Ludok355k')).toBe(true);
     });
 
     test('не должен валидировать имя с четырьмя подряд идущими цифрами', () => {

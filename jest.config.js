@@ -152,7 +152,7 @@ const config = {
   transform: {
     '^.+\\.jsx?$': 'babel-jest', // для поддержки .js и .jsx файлов
   },
-  extensionsToTreatAsEsm: ['.js'],
+  extensionsToTreatAsEsm: [],
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
